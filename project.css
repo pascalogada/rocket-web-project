@@ -1,4 +1,3 @@
-
 body {
     background-color: #1e1e1e;
 }
@@ -18,6 +17,7 @@ a {
     height: 100%;
     padding-left: 60px;
     display: flex;
+    
 }
 .top-header-logo img {
     height: 40px;
@@ -31,16 +31,19 @@ a {
 .top-header-nav ul {
     list-style: none;
     margin-left: 30px;
+    
 }
 .top-header-nav ul li {
     display: inline;
     float: left;
+    
 }
 .top-header-nav ul li a {
     padding: 0 10px;
     line-height: 60px;
     display: block;
     height: 100%;
+    text-decoration: none;
 }
 .top-header-nav ul li a:hover {
     color: aqua;
@@ -69,4 +72,30 @@ a {
     background-image: url(instagram.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.home-header {
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.home-header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(spacex.jpg);
+    background-size: cover;
+}
+.banner-text{
+    font-size: 36px;
+    color: white;
+    padding-left: 5%;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.banner-text .btn-primary{
+    background-image: linear-gradient( #fff,#fff);
+    border: none;
+    box-shadow: none;
+    font-size: 12px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    text-decoration: none;
 }
